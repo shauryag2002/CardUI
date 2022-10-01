@@ -785,27 +785,24 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   background-color: #1180a2;
   color: black;
 }
-.btn{
-  height: 57px;
-  width: 153px;
-  background-color: mediumseagreen;
-  color: moccasin;
-  border: solid black 1px;
-  border-radius: 10px;
-  margin: 10px;
-  box-shadow: gray 10px 10px 10px;
-  display: inline-block;
-  text-align: center;
-  line-height: 32px;
-}
+#mode{
+  margin: auto 12px;
+  font-weight: 500;
+  color: black;
+  font-family: 'PT Sans', sans-serif;
+  background-color: #dd01ff;
+  border: none;
 
-.btn:hover{
-  transition: 0.7s;
-  transform: translate(-10px,-10px);
-  box-shadow: gray 20px 20px 18px;
 }
-.btn:active{
-  transition: 0.2s;
-  transform: translate(5px,5px);
-  box-shadow: gray 5px 5px 5px;
+#mode{
+  margin: auto;
+  color: black;
+  transition: all 0.4s ease-in-out;
+}
+#mode:hover {
+  color: rgb(91, 144, 194);
+  background-color: aliceblue;
+  transform: scale(1.2);
+  border-radius: 22px;
+    padding: 8px;
 }
